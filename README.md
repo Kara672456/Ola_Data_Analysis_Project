@@ -27,9 +27,9 @@ The goal is to enable business teams to make informed decisions on:
 ---
 
 ## 📂 Files in This Repository
-- `SQL_Analysis.sql` – Contains SQL queries for data cleaning, transformation, and aggregation.  
+- `01_Ola_Data_Analysis_SQL.sql` – Contains SQL queries for data cleaning, transformation, and aggregation.  
 - `02_Ola_Data_Analysis_DashBoard.pbix` – Power BI dashboard visualizing ride and revenue insights.  
-- `README.md` – Project documentation (this file).
+- `README.md` – Project documentation (this file).  
 
 ---
 
@@ -92,6 +92,25 @@ The dashboard provides an interactive interface for management to drill down by 
 
 ---
 
+## 🖼️ Power BI Dashboard Visuals  
+
+### 1️⃣ Overall Performance Dashboard  
+![Overall Performance Dashboard](Ola_Visuals/02_Ola_Data_Analysis_DashBoard-1.png)
+
+### 2️⃣ Revenue by City  
+![Revenue by City](Ola_Visuals/02_Ola_Data_Analysis_DashBoard-2.png)
+
+### 3️⃣ Rides Over Time  
+![Rides Over Time](Ola_Visuals/02_Ola_Data_Analysis_DashBoard-3.png)
+
+### 4️⃣ Payment Method Usage  
+![Payment Method Usage](Ola_Visuals/02_Ola_Data_Analysis_DashBoard-4.png)
+
+### 5️⃣ Driver Ratings Distribution  
+![Driver Ratings Distribution](Ola_Visuals/02_Ola_Data_Analysis_DashBoard-5.png)
+
+---
+
 ## 📍 Key Insights
 - **High Demand:** Evening rides (6 PM – 9 PM) contribute most to total trips.  
 - **Revenue Leaders:** Metropolitan cities like **Mumbai, Bangalore, and Delhi** generate the majority of revenue.  
@@ -118,7 +137,7 @@ The dashboard provides an interactive interface for management to drill down by 
 3. Import the CSV files (using SSMS Import Wizard or BULK INSERT).  
 
 ### 2️⃣ Run SQL Scripts
-Execute the SQL scripts (`SQL_Analysis.sql`) to generate:
+Execute the SQL scripts (`01_Ola_Data_Analysis_SQL.sql`) to generate:
 - Cleaned datasets  
 - Aggregated views for Power BI  
 
@@ -142,4 +161,3 @@ This project integrates **data engineering, SQL analytics, and Power BI visualiz
 It highlights how data-driven analysis can optimize ride allocation, improve driver efficiency, and enhance customer experience for a ride-hailing platform like Ola.
 
 ---
-
